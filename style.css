@@ -127,3 +127,42 @@
     color: rgb(0, 168, 0);
     margin-right: 10px;
 }
+
+.plan-container{
+    margin-top: 130px;
+
+}
+
+.plan-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.plan-card{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 50px;
+}
+
+.card-about img{
+    max-width: 93px;
+    margin-bottom: 24px;
+}
+
+.card-about h3{
+    font-size:30px ;
+    color:#151414 ;
+    margin-bottom:16px ;
+
+}
+
+.card-about p{
+    font-size: 25px;
+    color: #737272;
+}
