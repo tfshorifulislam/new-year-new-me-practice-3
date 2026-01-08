@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.hero{
+    background-image: url("banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+    padding: 216px 230px 166px 845px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-container{
+    max-width: 494px;
+    text-align: right;
+}
+
+.hero-container h1{
+
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.hero-container p{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 21px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+}
