@@ -188,3 +188,81 @@
     margin-bottom: 24px;
 
 }
+
+
+.footer-container{
+    margin-top: 130px;
+    background-color: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text{
+    max-width: 468px;
+}
+.footer-text h3{
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+
+.footer-text p{
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.input-email{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+
+.input-number{
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 176px;
+    gap:17px;
+}
+
+
+.footer-contact h3{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 31px;
+
+}
+
+.footer-contact input[type="email"]{
+    padding: 21px 158px 22px 21px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #F3F3F3;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.footer-contact button{
+    border: none;
+    border-radius: 5px;
+    background-color: #005FAC;
+    padding: 21px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
