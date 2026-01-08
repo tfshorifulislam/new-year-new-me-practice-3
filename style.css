@@ -48,3 +48,82 @@
     font-weight: 600;
     color: #005FAC;
 }
+
+
+.failure{
+    margin-top: 130px;
+    padding: 130px 322px 0 206px;
+   
+}
+
+.failure-container{
+    max-width: 1072px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 134px;
+}
+
+.failure-image{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    
+}
+
+.failure-image img{
+    max-width: 525px;
+    align-items: flex-end;
+    z-index: 1;
+
+}
+
+
+.image-bg{
+    border: none;
+    border-radius: 100%;
+    background-color: #cccccc56;
+    width: 527.93px;
+    height: 527.93px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.failure-text{
+    max-width: 416px;
+}
+
+.failure-text h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failure-text p{
+    font-size: 16px;
+    font-weight: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-text ul{
+    list-style: none;
+}
+
+.failure-text ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failure-text ul li::before{
+    content: "✔";
+    font-size: 16px;
+    color: rgb(0, 168, 0);
+    margin-right: 10px;
+}
