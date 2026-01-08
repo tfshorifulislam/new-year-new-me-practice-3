@@ -166,3 +166,25 @@
     font-size: 25px;
     color: #737272;
 }
+
+
+.ad-banner{
+    margin-top: 130px;
+}
+
+.banner{
+    background-image: url("gradient1.png"), url("watch.png");
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    height: 300px;
+    margin:0 auto;
+    padding: 59px 617px 59px 64px;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 24px;
+
+}
